@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Selecciona una imagen</h1>
+    <div>
+        <input type="file" id="Imagen" accept="image/*" style="display: block;">
+        <button style="margin-top: 10px;" onclick="procesamiento()">50 primeros</button>
+        <button style="margin-top: 10px;" onclick="procesamiento()">Tonos principales</button>
+    </div>
+    <br>
+        <img id="previsualizacion" src="" alt="Vista previa de la imagen" style="display: none; margin-top: 20px; max-width: 500px;">
+        <h2>Píxeles con mayor frecuencia</h2>
+        <div id="container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
