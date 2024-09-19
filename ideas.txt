@@ -1,0 +1,10 @@
+La idea originalmente es clasificar las imágenes por porcentajes de colores, para poder realizar
+una búsqueda más visual.
+
+No obstante, sería interesante revisar las siguientes posibilidades:
+
+1. Revisar si existe un clasificador de imágenes de código abierto y probarlo con las imágenes que tengo 
+disponibles.
+
+2. Mirar si existe una forma de extraer texto de imágenes con inteligencia artificial y probarla con las 
+imágenes que tengo en las galerías.
